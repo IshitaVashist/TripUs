@@ -1,0 +1,79 @@
+# === Dependencies ===
+# Mark dependencies as vendored to exclude from language stats
+node_modules/* linguist-vendored
+yarn.lock linguist-vendored
+package-lock.json linguist-vendored
+pnpm-lock.yaml linguist-vendored
+
+# === Build and Compiled Files ===
+# Mark build artifacts and compiled files as generated
+dist/* linguist-generated
+build/* linguist-generated
+*.min.js linguist-generated
+*.map linguist-generated
+
+# === Documentation Files ===
+# Exclude documentation files from language stats
+*.md linguist-documentation
+*.rst linguist-documentation
+
+# === Language Overrides ===
+# React and Next.js files
+*.jsx linguist-language=JavaScript
+*.tsx linguist-language=TypeScript
+
+# TypeScript
+*.ts linguist-language=TypeScript
+
+# CSS and Tailwind CSS
+*.css linguist-language=CSS
+*.scss linguist-language=CSS
+*.sass linguist-language=CSS
+*.postcss linguist-language=CSS
+
+# HTML
+*.html linguist-language=HTML
+
+# JavaScript files for Node.js, Express.js, Socket.IO, Pusher
+*.js linguist-language=JavaScript
+
+# JSON configuration files
+*.json linguist-language=JSON
+*.json5 linguist-language=JSON
+
+# Prisma Schema
+*.prisma linguist-language=Prisma
+
+# Zod Schemas
+*.zod linguist-language=TypeScript
+
+# AWS S3 Configurations
+*.yaml linguist-language=YAML
+*.yml linguist-language=YAML
+
+# MySQL files
+*.sql linguist-language=SQL
+
+# Redis Configurations
+redis.conf linguist-language=Configuration
+
+# === Specific Exclusions ===
+# Ignore environment files
+.env linguist-vendored
+.env.* linguist-vendored
+
+# Ignore Docker and CI/CD configurations
+docker-compose.yml linguist-vendored
+Dockerfile linguist-vendored
+*.gitlab-ci.yml linguist-vendored
+.github/* linguist-vendored
+.gitignore linguist-vendored
+
+# Ignore IDE or editor settings
+*.iml linguist-vendored
+.idea/* linguist-vendored
+.vscode/* linguist-vendored
+
+# Exclude test snapshots and fixtures
+__snapshots__/* linguist-vendored
+__tests__/fixtures/* linguist-vendored

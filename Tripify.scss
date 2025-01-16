@@ -1,0 +1,78 @@
+// TripifyApp.scss
+$primary-color: #ff8c00;
+$secondary-color: #333;
+
+.tripify-app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+
+  h1 {
+    color: $primary-color;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .destination-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+
+    .destination-item {
+      cursor: pointer;
+      width: 200px;
+      border: 2px solid $secondary-color;
+      padding: 10px;
+      text-align: center;
+      border-radius: 8px;
+      transition: transform 0.3s ease;
+
+      &:hover {
+        transform: scale(1.05);
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+      }
+
+      h3 {
+        margin-top: 10px;
+        font-size: 18px;
+      }
+
+      p {
+        font-size: 14px;
+        color: #666;
+      }
+    }
+  }
+
+  .destination-details {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    h2 {
+      font-size: 24px;
+      color: $primary-color;
+    }
+
+    p {
+      font-size: 16px;
+      color: $secondary-color;
+    }
+
+    img {
+      margin-top: 15px;
+      width: 300px;
+      height: auto;
+      border-radius: 8px;
+    }
+  }
+}
