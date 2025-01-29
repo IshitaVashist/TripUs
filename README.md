@@ -67,15 +67,9 @@ Follow these steps to get your local development environment up and running!
 - ⭐ **Driver Rating & Review System**: Implement a feature where users can rate and review drivers to ensure a quality experience for future travelers.
 
 ## 👨‍💻 Contributing
-We welcome contributions! If you'd like to help improve TripsUS, follow these steps:
+We welcome contributions! If you'd like to help improve TripsUS kindly inform me first : )
 
-Fork the repository.
-Create a new branch (git checkout -b feature-branch).
-Make your changes.
-Commit your changes (git commit -am 'Add feature').
-Push to your branch (git push origin feature-branch).
-Open a pull request to the main repository.
-Please make sure your code follows the existing structure and includes any necessary tests.
+
 
 ## 📞 **Contact**
 For inquiries, reach out at ishitavashsitprof@gmail.com 
