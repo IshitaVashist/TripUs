@@ -25,6 +25,14 @@
 - **Database**: MongoDB
 - **Authentication**: JWT (JSON Web Tokens)
 
+# Screenshots
+
+![Screenshot (991)](https://github.com/user-attachments/assets/6f7d09e2-52db-4a9c-ab19-b862bf463145)
+![Screenshot (992)](https://github.com/user-attachments/assets/29325f35-0422-460c-b472-95417abfac48)
+![Screenshot (993)](https://github.com/user-attachments/assets/18532222-60c9-44c2-8c81-529689222df7)
+
+
+
 ## 📥 **Getting Started**
 
 Follow these steps to get your local development environment up and running!
